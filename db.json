@@ -1,14 +1,16 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "books": [
+    { "id": 1, "title": "Tom Sawyer", "author": 1, "isbn": "111111", "year": 1928, "image_url": "https://via.placeholder.com/100x100", "description": "blabla1" },
+    { "id": 2, "title": "Нисы", "author": 2, "isbn": "222222", "year": 1938, "image_url": "https://via.placeholder.com/100x100", "description": "blabla2" },
+    { "id": 3, "title": "На берегу Рио-Пьедра...", "author": 3, "isbn": "333333", "year": 1948, "image_url": "https://via.placeholder.com/100x100", "description": "blabla3" }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "authors_book": [
+    { "id": 1, "first_name": "Mark", "second_name": "Twain" },
+    { "id": 2, "first_name": "Джен", "second_name": "Синсеро" },
+    { "id": 3, "first_name": "Паоло", "second_name": "Коэльо" }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "users": [
+    { "id": 1, "name": "Ivan", "nick": "user1", "city": "Vologda", "email": "test@test1.ru", "pic_url": "https://via.placeholder.com/100x100"},
+    { "id": 2, "name": "David", "nick": "user2", "city": "Moscow", "email": "test@test2.ru", "pic_url": "https://via.placeholder.com/100x100"}
+    ]
 }
